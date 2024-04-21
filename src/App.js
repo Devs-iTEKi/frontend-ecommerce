@@ -4,6 +4,7 @@ import Header from './components/partials/Header';
 import Footer from './components/partials/Footer';
 import Shop from './pages/Shop';
 import PagoCheckOut from './pages/PagoCheckout';
+import Carrito from './pages/Carrito';
 import { BrowserRouter } from 'react-router-dom';
 import Router from './components/router/router';
 import { Horse, Heart, Cube, Alien  } from "@phosphor-icons/react";
@@ -20,6 +21,7 @@ function App() {
       <Cube color="teal" weight="duotone" />
       <Alien />
       <PagoCheckOut/>
+      <Carrito/>
 
       {/* Footer */} 
       <Footer/>
