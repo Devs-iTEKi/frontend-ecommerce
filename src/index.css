@@ -112,3 +112,7 @@ code {
   background-position: center;
   height: 400px;
 }
+
+.addFavorite:hover{
+  color: #dc3545;
+}
