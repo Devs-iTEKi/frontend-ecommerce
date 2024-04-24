@@ -4,7 +4,6 @@ const Header = () => {
     return (
 
         <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark" >
-
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
                     <img src="/img/logo/2.png" alt="logo" width="32" height="32" className="mx-2" />
