@@ -7,17 +7,20 @@ import { BrowserRouter } from 'react-router-dom';
 import Router from './components/router/router';
 import Home from './pages/Home';
 import ProductView from './pages/ProductView';
+import Favorites from './pages/Favorites';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Terms from './pages/Terms';
+import Politics from './pages/Politics';
+import Questions from './pages/Questions';
 
 function App() {
   return (
     <BrowserRouter>
-      {/* header */}  
       <HeaderDos/>
       <Router/>
-      <Home/>
-      <Shop/>
-      <ProductView/>
       <Footer/>
+
     </BrowserRouter>
   );
 }

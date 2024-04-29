@@ -211,7 +211,7 @@ const Shop = () => {
                 </nav>
 
             </div>
-            <div className="list-products">
+            <div className="list-products my-5">
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-4 mx-4">
                     <div className="col">
                         <div className="card border-0">
@@ -221,11 +221,11 @@ const Shop = () => {
                                     <p className="card-text fw-light">Inalámbricos con cancelación de ruido y sonido de alta calidad.</p>
                                     <div>
                                         <ul className="list-unstyled">
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-muted"><Star size={16}/></li>
+                                            <li className="d-inline text-muted"><Star size={16}/></li>
                                         </ul>
                                     </div>
                                     <h5 className="fw-semibold price pb-2">$299.99</h5>
@@ -243,11 +243,11 @@ const Shop = () => {
                                     <p className="card-text fw-light">Software de seguridad completo con protección en tiempo real y cortafuegos.</p>
                                     <div>
                                         <ul className="list-unstyled">
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-muted"><Star size={16}/></li>
+                                            <li className="d-inline text-muted"><Star size={16}/></li>
+                                            <li className="d-inline text-muted"><Star size={16}/></li>
                                         </ul>
                                     </div>
                                     <h5 className="fw-semibold price pb-2">$29.99</h5>
@@ -262,14 +262,14 @@ const Shop = () => {
                             <img src="img/products/Cámara Sony Alpha A6400.svg" className="card-img-top" alt="Producto 1"/>
                                 <div className="card-body ">
                                     <h5 className="card-title">Cámara Sony Alpha A6400</h5>
-                                    <p className="card-text fw-light">Cámara mirrorless con enfoque rápido y calidad de imagen excepcional.</p>
+                                    <p className="card-text fw-light">Mirrorless con enfoque rápido y calidad de imagen excepcional.</p>
                                     <div>
                                         <ul className="list-unstyled">
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-muted"><Star size={16}/></li>
+                                            <li className="d-inline text-muted"><Star size={16}/></li>
+                                            <li className="d-inline text-muted"><Star size={16}/></li>
+                                            <li className="d-inline text-muted"><Star size={16}/></li>
                                         </ul>
                                     </div>
                                     <h5 className="fw-semibold price pb-2">$900.00</h5>
@@ -287,11 +287,11 @@ const Shop = () => {
                                     <p className="card-text fw-light">Funda resistente para proteger tu iPhone contra caídas y arañazos.</p>
                                     <div>
                                         <ul className="list-unstyled">
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
                                         </ul>
                                     </div>
                                     <h5 className="fw-semibold price pb-2">$19.99</h5>
@@ -309,11 +309,11 @@ const Shop = () => {
                                     <p className="card-text fw-light">Portátil convertible con diseño elegante y alto rendimiento.</p>
                                     <div>
                                         <ul className="list-unstyled">
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-muted"><Star size={16}/></li>
+                                            <li className="d-inline text-muted"><Star size={16}/></li>
                                         </ul>
                                     </div>
                                     <h5 className="fw-semibold price pb-2">$1,819.95</h5>
@@ -331,11 +331,11 @@ const Shop = () => {
                                     <p className="card-text fw-light">Portátil versátil con pantalla táctil 4K y altavoces Dolby Atmos</p>
                                     <div>
                                         <ul className="list-unstyled">
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-muted" ><Star size={16}/></li>
+                                            <li className="d-inline text-muted"><Star size={16}/></li>
                                         </ul>
                                     </div>
                                     <h5 className="fw-semibold price pb-2">$899.99</h5>
@@ -350,14 +350,14 @@ const Shop = () => {
                             <img src="img/products/MacBook Air M1.svg" className="card-img-top" alt="Producto 1"/>
                                 <div className="card-body ">
                                     <h5 className="card-title">MacBook Air M1</h5>
-                                    <p className="card-text fw-light">Portátil ligero con chip M1 de Apple para un rendimiento potente y eficiente.</p>
+                                    <p className="card-text fw-light">Portátil ligero con chip M1 para un rendimiento potente y eficiente.</p>
                                     <div>
                                         <ul className="list-unstyled">
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
                                         </ul>
                                     </div>
                                     <h5 className="fw-semibold price pb-2">$1,200.00</h5>
@@ -374,12 +374,12 @@ const Shop = () => {
                                     <h5 className="card-title">Intel Core i9-12900K</h5>
                                     <p className="card-text fw-light">Procesador de alta gama para juegos y edición de vídeo.</p>
                                     <div>
-                                        <ul className="list-unstyled">
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
-                                            <li className="d-inline"><Star size={16}/></li>
+                                        <ul className="list-unstyled ">
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-warning"><Star size={16}/></li>
+                                            <li className="d-inline text-muted"><Star size={16}/></li>
+                                            <li className="d-inline text-muted"><Star size={16}/></li>
                                         </ul>
                                     </div>
                                     <h5 className="fw-semibold price pb-2">$169.99</h5>

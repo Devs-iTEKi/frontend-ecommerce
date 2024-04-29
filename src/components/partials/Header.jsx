@@ -3,7 +3,7 @@ import { HeartStraight, ShoppingCartSimple } from "@phosphor-icons/react";
 const Header = () => {
     return (
 
-        <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark" >
+        <nav className="navbar navbar-expand-lg text-white" data-bs-theme="dark" >
 
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">

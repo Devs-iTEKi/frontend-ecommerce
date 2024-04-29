@@ -19,10 +19,10 @@ const ProductView = () => {
                         <div className="d-flex my-2">
                             {/* Lista de estrellas */}
                             <ul className="list-unstyled">
-                                <li className="d-inline text-warning"><Star size={20} /></li>
+                                <li className="d-inline text-warning "><Star size={20} /></li>
                                 <li className="d-inline text-warning"><Star size={20} /></li>
                                 <li className="d-inline text-warning" ><Star size={20} /></li>
-                                <li className="d-inline text-muted"><Star size={20} /></li>
+                                <li className="d-inline text-muted "><Star size={20} /></li>
                                 <li className="d-inline text-muted"><Star size={20} /></li>
                             </ul>
                         </div>

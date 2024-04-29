@@ -131,12 +131,7 @@ const Home = () => {
                 </div>
             </div>
 
-
-
-
-
-
-            <div className="categories p-4 container-fluid mt-5 mb-5">
+            <div className="categories p-5 container-fluid mt-5 mb-5">
                 <h1 className="text-center mb-5 fw-bold">Categorías principales</h1>
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
                     <div className="col mb-3">
@@ -265,58 +260,82 @@ const Home = () => {
             <div className="testimonials">
                 <div className="container mt-5 mb-5">
                     <h2 className="text-center mb-5 fw-semibold">Nuestros clientes lo confirman</h2>
-                    <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-6 g-4">
+                    <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-6 g-3">
                         <div className="col">
                             <div className="card h-100">
-                                <img src="/img/testimonials/1.svg" className="card-img-top rounded-circle p-3" alt="Testimonial 1" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Karla Hernández</h5>
-                                    <p className="card-text fw-light">¡Increíble! Mi nuevo smartphone tiene un rendimiento impecable. La cámara es de alta calidad y la batería dura todo el día. ¡Gracias por ofrecer productos de primera!</p>
+                                <p className="fw-light p-2">¡Increíble! Mi nuevo smartphone tiene un rendimiento impecable. La cámara es de alta calidad y la batería dura todo el día. ¡Gracias por ofrecer productos de primera!</p>
+                                <div className="row align-items-center justify-content-center mx-auto mb-2">
+                                    <div className="col-4 ">
+                                        <img src="/img/testimonials/1.svg" className="rounded-circle img-fluid" width={50} alt="Testimonial 1" />
+                                    </div>
+                                    <div className="col-8 ">
+                                        <p className="fw-regular my-auto">Carolina Gómez</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col">
                             <div className="card h-100">
-                                <img src="/img/testimonials/2.svg" className="card-img-top rounded-circle p-3" alt="Testimonial 1" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Roberto Zelaya</h5>
-                                    <p className="card-text fw-light">Estoy impresionado con la velocidad y la potencia de mi nueva laptop. Puedo trabajar sin problemas en múltiples tareas. Definitivamente, una excelente inversión.</p>
+                                <p className="fw-light p-2">Estoy impresionado con la velocidad y la potencia de mi nueva laptop. Puedo trabajar sin problemas en múltiples tareas. Definitivamente, una excelente inversión para mi trabajo.</p>
+                                <div className="row align-items-center justify-content-center mx-auto mb-2">
+                                    <div className="col-4 ">
+                                        <img src="/img/testimonials/2.svg" className="rounded-circle img-fluid" width={50} alt="Testimonial 1" />
+                                    </div>
+                                    <div className="col-8">
+                                        <p className="fw-regular my-auto">Fernando Zelaya</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col">
                             <div className="card h-100">
-                                <img src="/img/testimonials/3.svg" className="card-img-top rounded-circle p-3" alt="Testimonial 1" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Sofía Gómez</h5>
-                                    <p className="card-text fw-light">Los auriculares inalámbricos que adquirí aquí son una maravilla. La calidad del sonido es excepcional y la comodidad de uso es insuperable. ¡Los recomiendo!</p>
+                                <p className="fw-light p-2">Los auriculares inalámbricos que adquirí aquí son una maravilla. La calidad del sonido es excepcional y la comodidad de uso es insuperable. ¡Los recomiendo!</p>
+                                <div className="row align-items-center justify-content-center mx-auto mb-2">
+                                    <div className="col-4">
+                                        <img src="/img/testimonials/3.svg" className="rounded-circle img-fluid" width={50} alt="Testimonial 1" />
+                                    </div>
+                                    <div className="col-8">
+                                        <p className="fw-regular my-auto">Daniela Canizalez</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col">
                             <div className="card h-100">
-                                <img src="/img/testimonials/5.svg" className="card-img-top rounded-circle p-3" alt="Testimonial 1" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Carlos Martínez</h5>
-                                    <p className="card-text fw-light">Mi experiencia gaming ha mejorado significativamente. La calidad de imagen y la fluidez son impresionantes. ¡Gracias por ofrecer productos de alta gama!</p>
+                                <p className="fw-light p-2">Mi experiencia gaming ha mejorado significativamente. La calidad de imagen y la fluidez son impresionantes. ¡Gracias por ofrecer productos de alta gama!</p>
+                                <div className="row align-items-center justify-content-center mx-auto mb-2">
+                                    <div className="col-4">
+                                        <img src="/img/testimonials/5.svg" className="rounded-circle img-fluid" width={50} alt="Testimonial 1" />
+                                    </div>
+                                    <div className="col-8">
+                                        <p className="fw-regular my-auto">Carlos Martínez</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col">
                             <div className="card h-100">
-                                <img src="/img/testimonials/4.svg" className="card-img-top rounded-circle p-3" alt="Testimonial 1" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Paola Fernández</h5>
-                                    <p className="card-text fw-light">La tableta que adquirí en esta tienda ha facilitado mi trabajo. Su versatilidad y rendimiento me permiten ser más productivo en cualquier lugar. ¡Excelente elección!</p>
+                                <p className="fw-light p-2">La tableta que adquirí en esta tienda ha facilitado mi trabajo. Su versatilidad y rendimiento me permiten ser más productivo en cualquier lugar. ¡Excelente elección!</p>
+                                <div className="row align-items-center justify-content-center mx-auto mb-2">
+                                    <div className="col-4">
+                                        <img src="/img/testimonials/4.svg" className="rounded-circle img-fluid" width={50} alt="Testimonial 1" />
+                                    </div>
+                                    <div className="col-8">
+                                        <p className="fw-regular my-auto">Paola Fernández</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                         <div className="col">
                             <div className="card h-100">
-                                <img src="/img/testimonials/6.svg" className="card-img-top rounded-circle p-3" alt="Testimonial 1" />
-                                <div className="card-body">
-                                    <h5 className="card-title">Rodrigo López</h5>
-                                    <p className="card-text fw-light">Los accesorios que compré aquí complementan perfectamente mis dispositivos. Todo es de calidad y cumple con mis expectativas. ¡Gracias por el excelente servicio!</p>
+                                <p className="fw-light p-2">Los accesorios que compré aquí complementan perfectamente mis dispositivos. Todo es de calidad y cumple con mis expectativas. ¡Gracias por el excelente servicio!</p>
+                                <div className="row align-items-center justify-content-center mx-auto mb-2">
+                                    <div className="col-4">
+                                        <img src="/img/testimonials/6.svg" className="rounded-circle img-fluid" width={50} alt="Testimonial 1" />
+                                    </div>
+                                    <div className="col-8">
+                                        <p className="fw-regular my-auto">Rodrigo Colindres</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

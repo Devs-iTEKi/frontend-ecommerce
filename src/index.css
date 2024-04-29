@@ -12,8 +12,13 @@ code {
     monospace;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .footer {
   background-color: #000000;
+ ;
 }
 
 .header {
@@ -80,7 +85,7 @@ code {
 }
 
 
-.price {
+.price, .question {
   color: #6610f2;
 }
 
@@ -115,4 +120,12 @@ code {
 
 .addFavorite:hover{
   color: #dc3545;
+}
+
+.about-icon, .icon-contact {
+  color: #6610f2;
+}
+
+.about h2 {
+  color: #6610f2;
 }
