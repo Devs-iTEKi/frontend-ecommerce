@@ -54,7 +54,7 @@ const CarritoCheckout = () => {
                         <div className="card-body">
                             <div className="col-12">
                                 <h5><strong>Resumen de la compra</strong></h5>
-                                <hr>
+                                <hr/>
                             </div>
 
                             <div className="row">
