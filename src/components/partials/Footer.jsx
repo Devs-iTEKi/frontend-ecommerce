@@ -1,8 +1,9 @@
 import { ClockClockwise, Truck, Cardholder, Headset, FacebookLogo, WhatsappLogo, InstagramLogo } from "@phosphor-icons/react";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="footer footer-container py-4 mt-4  bg-dark text-white ">
+    <footer className="footer footer-container py-4   text-white ">
       <div className="container mt-4 mb-4">
         <div className="row d-flex align-items-center">
           <div className="col-md-6 ">
@@ -10,26 +11,21 @@ const Footer = () => {
             <p className="fw-light">2024</p>
           </div>
           <div className="col-md-3 footer-section md-0">
-            <h5 className="fw-normal">Sobre nosotros</h5>
+            <Link to="/nosotros" className="text-decoration-none text-white"><h5 className="fw-normal">Sobre nosotros</h5></Link>
             <ul className="list-unstyled pt-2">
-              <li className="fw-light"><a href="#" className="text-decoration-none text-white">¿Quiénes somos?</a>
-              </li>
-              <li className="fw-light"><a href="#" className="text-decoration-none text-white">Nuestra Historia</a>
-              </li>
-              <li className="fw-light"><a href="#" className="text-decoration-none text-white">Misión</a></li>
-              <li className="fw-light"><a href="#" className="text-decoration-none text-white">Visión</a></li>
+              <li className="fw-light"><Link to="/nosotros" className="text-decoration-none text-white">¿Quiénes somos?</Link></li>
+              <li className="fw-light"><Link to="/nosotros" className="text-decoration-none text-white">Nuestra Historia</Link></li>
+              <li className="fw-light"><Link to="/nosotros" className="text-decoration-none text-white">Misión</Link></li>
+              <li className="fw-light"><Link to="/nosotros" className="text-decoration-none text-white">Visión</Link></li>
             </ul>
           </div>
           <div className="col-md-3 footer-section md-0">
             <h5 className="fw-normal">Ayuda y seguridad</h5>
             <ul className="list-unstyled pt-2">
-              <li className="fw-light"><a href="#" className="text-decoration-none text-white">Términos y
-                condiciones</a></li>
-              <li className="fw-light"><a href="#" className="text-decoration-none text-white">Políticas de
-                seguridad</a></li>
-              <li className="fw-light"><a href="#" className="text-decoration-none text-white">Preguntas
-                frecuentes</a></li>
-              <li className="fw-light"><a href="#" className="text-decoration-none text-white">Contacto</a></li>
+              <li className="fw-light"><Link to="/terminos" className="text-decoration-none text-white">Términos y condiciones</Link></li>
+              <li className="fw-light"><Link to="/politicas" className="text-decoration-none text-white">Políticas de seguridad</Link></li>
+              <li className="fw-light"><Link to="/preguntas" className="text-decoration-none text-white">Preguntas frecuentes</Link></li>
+              <li className="fw-light"><Link to="/contactos" className="text-decoration-none text-white">Contacto</Link></li>
             </ul>
           </div>
         </div>
