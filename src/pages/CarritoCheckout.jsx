@@ -1,14 +1,17 @@
+import { CaretLeft, CaretRight } from "@phosphor-icons/react";
+import { Link } from 'react-router-dom';
+
 const CarritoCheckout = () => {
     return (
         // < !--INICIO DE CONTAINER CENTRAL-- >
         <div className="container">
 
             <div className="row w-100 my-4">
-                <div className="col-1"><i className="ph ph-caret-left h1"></i></div>
+                <div className="col-1 mt-2"><Link to="/carrito" className="link nav-link"><CaretLeft  size={52} /></Link></div>
                 <div className="col-10">
                     <h1>Información del cliente</h1>
                 </div>
-                <div className="col-1"><i className="ph ph-caret-right h1"></i></div>
+                <div className="col-1 mt-2"><Link to="/datosDeEnvio" className="link nav-link"><CaretRight size={52} /></Link></div>
             </div>
 
             {/* <!-- INICIO DE CARD --> */}
@@ -59,7 +62,7 @@ const CarritoCheckout = () => {
 
                             <div className="row">
                                 <div className="col-6">Subtotal:</div>
-                                <div className="col-6">$395.00</div>
+                                <div className="col-6">$445.00</div>
                             </div>
                             <div className="row">
                                 <div className="col-6">Costo de envio:</div>
@@ -68,7 +71,7 @@ const CarritoCheckout = () => {
 
                             <div className="row">
                                 <div className="col">
-                                    <h3 className="text-info">Total: $395.00</h3>
+                                    <h3 className="text-primary">Total: $445.00</h3>
                                 </div>
                             </div>
 

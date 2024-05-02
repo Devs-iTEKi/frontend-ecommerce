@@ -1,9 +1,11 @@
 import React from 'react'
+import { CaretLeft, CaretRight } from "@phosphor-icons/react";
+import { Link } from 'react-router-dom';
 
 const ConfirmacionCompra = () => {
     return (
         <div className="container">
-            <div className="card shadow p-3 mb-5 bg-white rounded">
+            <div className="card shadow p-3 my-5 bg-white rounded">
                 <div className="card-header">
                     <h4 className="card-title">¡Gracias por tu compra!</h4>
                 </div>
@@ -45,6 +47,9 @@ const ConfirmacionCompra = () => {
                             </p>
                         </div>
                     </div>
+                </div>
+                <div>
+                    <a href=""><Link to="/tienda" className="link nav-link">Continuar comprando</Link></a>
                 </div>
             </div>
         </div>

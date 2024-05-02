@@ -5,21 +5,20 @@ const Login = () => {
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-md-10">
-                    <div className="card mt-5 bg-white">
+                    <div className="card my-5 bg-white">
                         {/* < div className="card-header text-center">{{ __('Login') }}</div> */}
 
                         <div className="card-body row justify-content-center">
 
                             <div className="col-xs-10 col-sm-9 col-md-8 col-lg-7 col-xl-6 text-center">
-                                <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg" className="img-fluid" alt="Phone image" />
-                                {/* <img src="" alt="Imagen de referencia para el login" width="350" className="" /> */}
+                                <img src="img/logo/4.png" className="card-img-top" alt="Logo"/>
                             </div>
 
                             <div className="col-xs-10 col-sm-9 col-md-8 col-lg-5 col-xl-6">
                                 <form method="POST" action="/home">
                                     {/* xs <576px	 sm≥576px	md≥768px	lg≥992px	xl≥1200px	xxl≥1400px */}
 
-                                    <div className="row mb-3">
+                                    <div className="row my-4">
                                         <label htmlFor="email" className="col-xs-12 col-md-12 col-lg-12 col-xl-12 col-form-label text-xs-start text-md-start text-lg-start text-xl-start">Correo electrónico</label>
 
                                         <div className="col-xs-12 col-md-12 col-lg-12 col-xl-12">
@@ -28,7 +27,7 @@ const Login = () => {
                                         </div>
                                     </div>
 
-                                    <div className="row mb-3">
+                                    <div className="row my-4">
                                         <label htmlFor="password" className="col-xs-12 col-md-12 col-lg-12 col-xl-12 col-form-label text-xs-start text-md-start text-lg-start text-xl-start">Contraseña</label>
 
                                         <div className="col-xs-12 col-md-12 col-lg-12 col-xl-12">
@@ -38,7 +37,7 @@ const Login = () => {
                                         </div>
                                     </div>
 
-                                    <div className="row mb-3">
+                                    <div className="row my-4">
                                         <div className="col-xs-12 col-md-12 col-lg-12 col-xl-12">
                                             <div className="form-check">
                                                 <input className="form-check-input" type="checkbox" name="remember" id="remember" />
@@ -48,7 +47,7 @@ const Login = () => {
                                         </div>
                                     </div>
 
-                                    <div className="row mb-0 text-center">
+                                    <div className="row my-4 text-center">
                                         <div className="col-xs-12 col-md-12 col-lg-12 col-xl-12">
                                             <button type="submit" className="btn btn-primary" href="/Home">
                                                 Iniciar sesión

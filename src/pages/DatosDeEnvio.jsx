@@ -1,19 +1,26 @@
-import { CaretLeft,CaretRight } from "@phosphor-icons/react";
+import { CaretLeft, CaretRight } from "@phosphor-icons/react";
+import { Link } from 'react-router-dom';
+
 const DatosDeEnvio = () => {
   return (
     <section>
-        <div className="container-fluid pt-5">
-            <div className="row justify-content-start">
-                <div className="col-11">
+        <div className="container">
+            <div className="row w-100 my-4">
+                <div>
                     <div className="h-100  w-100 container-fluid d-flex justify-content-start align-items-center">
-                        <a className=" text-black" href="" style="text-decoration: none; color: inherit;"><CaretLeft size={32} /></a>
-                        <h1 className="px-3 text-black">Datos de envío</h1>
-                       
+                        <div className="col-1 mt-2">
+                            <Link to="/carritoCheckout" className="link nav-link"><CaretLeft  size={52} /></Link>
+                        </div>
+                        <div className="col-10">
+                            <h1 className="px-3 text-black">Datos de envío</h1>
+                        </div>
+                        <div className="col-1 mt-2">
+                        <Link to="/pagoCheckout" className="link nav-link"><CaretRight size={52} /></Link>              
+                        </div>
                     </div>
                 </div>
                 <div className="col">
                     <div className="h-100  w-100 container-fluid d-flex justify-content-end align-items-center">
-                        <a className="fs-1 text-black" href="" style="text-decoration: none; color: inherit;"/><a className=" text-black " href=""><CaretRight size={32} /></a>                      
                     </div>
                 </div>
                 
@@ -81,6 +88,6 @@ const DatosDeEnvio = () => {
       </div>
     </section>
   );
-};
+}
 
 export default DatosDeEnvio;

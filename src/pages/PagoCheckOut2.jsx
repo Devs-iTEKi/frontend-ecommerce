@@ -1,14 +1,17 @@
-import { CaretLeft,  } from "@phosphor-icons/react";
+import { CaretLeft, CaretRight } from "@phosphor-icons/react";
+import { Link } from 'react-router-dom';
+
 const PagoCheckOut2 = () => {
   return (
     <section >
         <div className="container-fluid pt-5">
             <div className="row justify-content-start">
                 <div className="col">
-                    <div className="h-100  w-100 container-fluid d-flex justify-content-start align-items-center">
-                        <a className=" text-black" href="" style="text-decoration: none; color: inherit;"><CaretLeft size={32} /></a>
+                    <div className="col-1 mt-2"><Link to="/datosDeEnvio" className="link nav-link"><CaretLeft  size={52} /></Link></div>
+                    <div className="col-10">
                         <h1 className="px-3 text-black">Método de pago</h1>
                     </div>
+                    <div className="col-1 mt-2"><Link to="/confirmacionCompra" className="link nav-link"><CaretRight size={52} /></Link></div>
                 </div>
                 
             </div>
