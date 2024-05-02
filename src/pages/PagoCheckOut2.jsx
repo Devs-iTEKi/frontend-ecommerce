@@ -1,4 +1,4 @@
-import { CaretLeft,CaretRight  } from "@phosphor-icons/react";
+import { CaretLeft,  } from "@phosphor-icons/react";
 const PagoCheckOut2 = () => {
   return (
     <section >
@@ -6,7 +6,7 @@ const PagoCheckOut2 = () => {
             <div className="row justify-content-start">
                 <div className="col">
                     <div className="h-100  w-100 container-fluid d-flex justify-content-start align-items-center">
-                        <a className="fs-1 text-black" href="" style="text-decoration: none; color: inherit;"><i className="ph ph-caret-left"></i></a>
+                        <a className=" text-black" href="" style="text-decoration: none; color: inherit;"><CaretLeft size={32} /></a>
                         <h1 className="px-3 text-black">Método de pago</h1>
                     </div>
                 </div>

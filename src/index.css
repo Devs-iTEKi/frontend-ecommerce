@@ -11,3 +11,121 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.link {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #000000;
+ ;
+}
+
+.header {
+  background-color: #000000;
+}
+
+.btn-primary {
+  background-color: #6610f2;
+  border-color: #6610f2;
+}
+
+.btn-primary:hover {
+  background-color: #36198B;
+  border-color: #36198B;
+}
+
+.btn-primary:active {
+  background-color: #36198B;
+  border-color: #36198B;
+}
+
+.btn-outline-primary {
+  border-color: #6610f2;
+  color: #6610f2;
+}
+
+.btn-outline-primary:hover {
+  background-color: #6610f2;
+  border-color: #6610f2;
+}
+
+.btn-outline-primary:active {
+  background-color: #6610f2;
+  border-color: #6610f2;
+}
+
+.slider {
+  background: white;
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.slide-track {
+  display: flex;
+  animation: scroll 40s linear infinite;
+}
+
+.slider .slide {
+  height: 100px;
+  width: 250px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 12));
+  }
+}
+
+
+.price, .question {
+  color: #6610f2;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+}
+
+.navbar a:active {
+  color: #ffffff;
+}
+
+
+.categories a {
+  text-decoration: none;
+
+}
+
+
+
+/* Eliminar la flechita del botón dropdown-toggle */
+.dropdown-toggle::after {
+  display: none;
+}
+
+
+.bg-image {
+  background-image: url('/public/img/others/background.svg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.addFavorite:hover{
+  color: #dc3545;
+}
+
+.about-icon, .icon-contact {
+  color: #6610f2;
+}
+
+.about h2 {
+  color: #6610f2;
+}

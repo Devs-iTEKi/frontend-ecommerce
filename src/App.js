@@ -1,19 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/partials/Header';
+import HeaderDos from './components/partials/HeaderDos';
 import Footer from './components/partials/Footer';
 import Shop from './pages/Shop';
 import PagoCheckOut from './pages/PagoCheckout';
+import Carrito from './pages/Carrito';
 import { BrowserRouter } from 'react-router-dom';
 import Router from './components/router/router';
-import { Horse, Heart, Cube, Alien  } from "@phosphor-icons/react";
+import Home from './pages/Home';
+import ProductView from './pages/ProductView';
+import Favorites from './pages/Favorites';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Terms from './pages/Terms';
+import Politics from './pages/Politics';
+import Questions from './pages/Questions';
 
 function App() {
   return (
     <BrowserRouter>
-      <Header/>
+      <HeaderDos/>
       <Router/>
-      {/* <PagoCheckOut/> */}
       <Footer/>
     </BrowserRouter>
   );

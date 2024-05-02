@@ -1,4 +1,4 @@
-import { CaretLeft,  } from "@phosphor-icons/react";
+import { CaretLeft,CaretRight } from "@phosphor-icons/react";
 const DatosDeEnvio = () => {
   return (
     <section>
@@ -6,14 +6,14 @@ const DatosDeEnvio = () => {
             <div className="row justify-content-start">
                 <div className="col-11">
                     <div className="h-100  w-100 container-fluid d-flex justify-content-start align-items-center">
-                        <a className="fs-1 text-black" href="" style="text-decoration: none; color: inherit;"><i className="ph ph-caret-left"></i></a>
+                        <a className=" text-black" href="" style="text-decoration: none; color: inherit;"><CaretLeft size={32} /></a>
                         <h1 className="px-3 text-black">Datos de envío</h1>
                        
                     </div>
                 </div>
                 <div className="col">
                     <div className="h-100  w-100 container-fluid d-flex justify-content-end align-items-center">
-                        <a className="fs-1 text-black" href="" style="text-decoration: none; color: inherit;"/>                    <a className="fs-1 text-black " href=""><i className="ph ph-caret-right"></i></a>                      
+                        <a className="fs-1 text-black" href="" style="text-decoration: none; color: inherit;"/><a className=" text-black " href=""><CaretRight size={32} /></a>                      
                     </div>
                 </div>
                 
