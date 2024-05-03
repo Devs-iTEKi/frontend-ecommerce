@@ -49,7 +49,7 @@ const Favorites = () => {
                 </div>
                 <div className="col">
                     <div className="card p-2">
-                        <img src="img/products/Cámara Sony Alpha A6400.svg" className="card-img-top" alt="Producto 1" />
+                        <img src="img/products/Camara Sony Alpha A6400.svg" className="card-img-top" alt="Producto 1" />
                         <div className="card-body ">
                             <h5 className="card-title">Cámara Sony Alpha A6400</h5>
                             <p className="card-text fw-light">Mirrorless con enfoque rápido y calidad de imagen excepcional.</p>
