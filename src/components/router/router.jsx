@@ -19,10 +19,10 @@ import Questions from "../../pages/Questions";
 const Router = () => {
     return (
         <Routes>
-                <Route path="/" element={<Login/>} />
+                <Route path="/login" element={<Login/>} />
                 <Route path="/registrate" element={<Registrate/>} />
                 <Route path="/nosotros" element={<About />} />
-                <Route path="/iteki" element={<Home />} />
+                <Route path="/*" element={<Home />} />
                 <Route path="/tienda" element={<Shop />} />
                 <Route path="/producto" element={<ProductView />} />
                 <Route path="/favoritos" element={<Favorites />} />
