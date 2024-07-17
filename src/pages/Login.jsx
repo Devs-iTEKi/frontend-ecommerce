@@ -17,6 +17,7 @@ const Login = () => {
                             <div className="col-xs-10 col-sm-9 col-md-8 col-lg-5 col-xl-6">
                                 <form method="POST" action="/home">
                                     {/* xs <576px	 sm≥576px	md≥768px	lg≥992px	xl≥1200px	xxl≥1400px */}
+                                    {/* comentario agregado */}
 
                                     <div className="row my-4">
                                         <label htmlFor="email" className="col-xs-12 col-md-12 col-lg-12 col-xl-12 col-form-label text-xs-start text-md-start text-lg-start text-xl-start">Correo electrónico</label>
