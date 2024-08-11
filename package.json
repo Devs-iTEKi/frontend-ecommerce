@@ -2,7 +2,7 @@
   "name": "frontend-ecommerce",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://devs-iteki.github.io/frontend-ecommerce/",
+  "homepage":"https://kevin-vasquez.github.io/frontend-ecommerce/",
   "dependencies": {
     "@phosphor-icons/react": "^2.1.4",
     "@testing-library/jest-dom": "^5.17.0",
